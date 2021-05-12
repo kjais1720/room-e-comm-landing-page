@@ -114,9 +114,11 @@ h2{
             }
 
         .slide.active .cta{
-            letter-spacing: 2px;
+            letter-spacing: 5px;
             cursor: pointer;
+            font-weight: 900;
             transition: all ease 0.8s;
+            color: black;
         }
 
         .slide.active .cta img{
@@ -127,7 +129,7 @@ h2{
         }
 
         .slide.active .cta:hover{
-            letter-spacing: 5px;
+            letter-spacing: 10px;
             color: rgb(149, 145, 145);
         }
 
