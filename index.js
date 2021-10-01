@@ -7,13 +7,6 @@ navButton.addEventListener("click", () =>{
 })
 
 var activeIndex = 0
-for (var i=0; i<slides.length; i++){
-    if (slides[i].className.slice(-6,)==='active'){
-        activeIndex=i
-    }
-}
-
-console.log(activeIndex)
 
 document.querySelectorAll(".prev").forEach((prev)=>{
     prev.addEventListener('click', ()=>{
